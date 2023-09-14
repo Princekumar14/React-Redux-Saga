@@ -7,8 +7,9 @@ export const CartData = (data = [], action) => {
            
         case REMOVE_FROM_CART:
             console.warn("REMOVE_FROM_CART CONDITION", action)
-            data.length= data.length ? data.length-1 : []
-            return [...data]
+            // data.length= data.length ? data.length-1 : []
+            const remainingItem = data.filter((item)=> item.id!==action.data)
+            return [...remainingItem]
         case EMPTY_CART:
             console.warn("REMPTY_CART CONDITION", action)
             data=[]
@@ -17,4 +18,4 @@ export const CartData = (data = [], action) => {
         default:
             return data
     }
-}
+}  

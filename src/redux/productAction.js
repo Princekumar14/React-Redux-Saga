@@ -1,10 +1,22 @@
-import { PRODUCT_LIST, } from "./constant"
-export const ProductList = async () => {
-    let data = await fetch("https://jsonplaceholder.typicode.com/todos/1")
-    data = await data.json()
-    console.warn("PRODUCT_LIST action called",data)
+import { PRODUCT_LIST,SEARCH_PRODUCT,SET_PRODUCT_LIST } from "./constant"
+export const ProductList =  () => {
     return {
         type: PRODUCT_LIST,
-        data
+        // data:"apple"
     }
 }
+
+export const ProductSearch = (query) => {
+  
+    return {
+        type: SEARCH_PRODUCT,
+        query
+    }
+}
+// export const SetProductList =  (data) => {
+//     console.warn("Set Action")
+//     return {
+//         type: SET_PRODUCT_LIST,
+//         data
+//     }
+// }
