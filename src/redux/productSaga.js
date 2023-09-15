@@ -8,8 +8,8 @@ function* getProducts() {
     yield put({ type: SET_PRODUCT_LIST, data })
 }
 
-function* searchProducts(data) {
-    let result = yield fetch(`http://localhost:8000/products?q=${data.query}`);
+function* searchProducts(data1) {
+    let result = yield fetch(`http://localhost:8000/products?q=${data1.query}`);
     result = yield result.json();
     console.warn("action is called", result)
     yield put({type: SET_PRODUCT_LIST, data:result})
