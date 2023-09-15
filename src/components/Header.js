@@ -13,66 +13,32 @@ const Header = () => {
 
 
 
-  // const debouncedSearch = debounce((query) => { 
-  //   if (search.length > 2) {
-  //     dispatch(ProductSearch(search))
-  //   }
-  // }, 2000);
 
-  // const handleSearch = (e) => {
+  const updatedserchValue = e => {
+    setSearch(e.target.value)
+  }
+  useEffect(() => {
+    dispatch(ProductSearch(search))
+  }, [search])
 
+
+  const handleSearch = debounce(updatedserchValue, 2000)
+
+
+
+
+
+  //   function handleSearch (e) {
   //   const newQuery = e.target.value
-  //   setSearch(newQuery)
-
-  //   debouncedSearch(newQuery)
-  // }
-
-
-
-  // const handleSearch = (e) => {
-  //   const newQuery = e.target.value
-  //   debounce(() => { setSearch(newQuery) }, 2000)()
-  //   console.log(search)
-
-
-  // }
-
-
-  // useEffect(() => {
-  //   if (search.length > 2) {
-  //     dispatch(ProductSearch(search))
-  //   }
-  // }, [search])
-
-
-
-
-
-  // const updatedserchValue = e => {
-  //   setSearch(e.target.value)
-  // }
-  // useEffect(() => {
-  //   dispatch(ProductSearch(search))
-  // }, [search])
-
-
-  // const handleSearch = debounce(updatedserchValue, 2000)
-
-
-
-
-
-    function handleSearch (e) {
-    const newQuery = e.target.value
-      setSearch(newQuery) 
-    debounce(() => { 
+  //     setSearch(newQuery) 
+  //   debounce(() => { 
     
       
-       dispatch(ProductSearch(search))
-    }, 2000)()
-    console.log(search)
+  //      dispatch(ProductSearch(search))
+  //   }, 2000)()
+  //   console.log(search)
 
-  }
+  // }
   // }
   // useEffect(() => {
    
