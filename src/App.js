@@ -5,13 +5,14 @@ import Cart from './components/Cart';
 import { Routes, Route } from 'react-router-dom';
 import { useDispatch } from 'react-redux';
 import { ProductSearch, ProductList } from './redux/productAction';
+// import PaginationOfItems from './components/PaginationOfItems';
 
 function App() {
   const dispatch = useDispatch()
   function myfxn() {
     dispatch(ProductSearch())
     dispatch(ProductList())
-    
+
   }
   if (localStorage.length === 0) {
     myfxn()
@@ -23,7 +24,8 @@ function App() {
         <Route path='/' element={<Main />} />
         <Route path='/cart' element={<Cart />} />
       </Routes>
-
+      {/* <PaginationOfItems/> */}
+      
     </div>
   );
 }

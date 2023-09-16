@@ -1,0 +1,294 @@
+{
+    "products": [
+        {
+            "id": 1,
+            "name": "Samsung-m40",
+            "color": "black",
+            "price": 15000,
+            "category": "Mobile",
+            "brand": "Samsung",
+            "photo": "https://5.imimg.com/data5/KC/PC/MY-38629861/dummy-chronograph-watch-500x500.jpg"
+        },
+        {
+            "id": 2,
+            "name": "T-shirt",
+            "color": "black",
+            "price": 15000,
+            "category": "cloths",
+            "brand": "Nike",
+            "photo": "https://clawthing.com/wp-content/uploads/2021/09/1.jpg"
+        },
+        {
+            "id": 3,
+            "name": "Samsung-m40",
+            "color": "black",
+            "price": 50000,
+            "category": "Mobile",
+            "brand": "Samsung",
+            "photo": "https://5.imimg.com/data5/KC/PC/MY-38629861/dummy-chronograph-watch-500x500.jpg"
+        },
+        {
+            "id": 4,
+            "name": "Sports Shoes",
+            "color": "red and black",
+            "price": 8000,
+            "category": "rebook",
+            "brand": "Nike",
+            "photo": "https://demo.wenthemes.com/easy-commerce-pro/wp-content/uploads/sites/44/2017/06/product-99.png"
+        },
+        {
+            "id": 5,
+            "name": "Samsung-m40",
+            "color": "black",
+            "price": 15000,
+            "category": "Mobile",
+            "brand": "Samsung",
+            "photo": "https://5.imimg.com/data5/KC/PC/MY-38629861/dummy-chronograph-watch-500x500.jpg"
+        },
+        {
+            "id": 6,
+            "name": "T-shirt",
+            "color": "black",
+            "price": 15000,
+            "category": "cloths",
+            "brand": "Nike",
+            "photo": "https://clawthing.com/wp-content/uploads/2021/09/1.jpg"
+        },
+        {
+            "id": 7,
+            "name": "Samsung-m40",
+            "color": "black",
+            "price": 50000,
+            "category": "Mobile",
+            "brand": "Samsung",
+            "photo": "https://5.imimg.com/data5/KC/PC/MY-38629861/dummy-chronograph-watch-500x500.jpg"
+        },
+        {
+            "id": 8,
+            "name": "Sports Shoes",
+            "color": "red and black",
+            "price": 8000,
+            "category": "rebook",
+            "brand": "Nike",
+            "photo": "https://demo.wenthemes.com/easy-commerce-pro/wp-content/uploads/sites/44/2017/06/product-99.png"
+        },
+        {
+            "id": 9,
+            "name": "Samsung-m40",
+            "color": "black",
+            "price": 15000,
+            "category": "Mobile",
+            "brand": "Samsung",
+            "photo": "https://5.imimg.com/data5/KC/PC/MY-38629861/dummy-chronograph-watch-500x500.jpg"
+        },
+        {
+            "id": 10,
+            "name": "T-shirt",
+            "color": "black",
+            "price": 15000,
+            "category": "cloths",
+            "brand": "Nike",
+            "photo": "https://clawthing.com/wp-content/uploads/2021/09/1.jpg"
+        },
+        {
+            "id": 11,
+            "name": "Samsung-m40",
+            "color": "black",
+            "price": 50000,
+            "category": "Mobile",
+            "brand": "Samsung",
+            "photo": "https://5.imimg.com/data5/KC/PC/MY-38629861/dummy-chronograph-watch-500x500.jpg"
+        },
+        {
+            "id": 12,
+            "name": "Sports Shoes",
+            "color": "red and black",
+            "price": 8000,
+            "category": "rebook",
+            "brand": "Nike",
+            "photo": "https://demo.wenthemes.com/easy-commerce-pro/wp-content/uploads/sites/44/2017/06/product-99.png"
+        },
+        {
+            "id": 13,
+            "name": "Samsung-m40",
+            "color": "black",
+            "price": 15000,
+            "category": "Mobile",
+            "brand": "Samsung",
+            "photo": "https://5.imimg.com/data5/KC/PC/MY-38629861/dummy-chronograph-watch-500x500.jpg"
+        },
+        {
+            "id": 14,
+            "name": "T-shirt",
+            "color": "black",
+            "price": 15000,
+            "category": "cloths",
+            "brand": "Nike",
+            "photo": "https://clawthing.com/wp-content/uploads/2021/09/1.jpg"
+        },
+        {
+            "id": 15,
+            "name": "Samsung-m40",
+            "color": "black",
+            "price": 50000,
+            "category": "Mobile",
+            "brand": "Samsung",
+            "photo": "https://5.imimg.com/data5/KC/PC/MY-38629861/dummy-chronograph-watch-500x500.jpg"
+        },
+        {
+            "id": 16,
+            "name": "Sports Shoes",
+            "color": "red and black",
+            "price": 8000,
+            "category": "rebook",
+            "brand": "Nike",
+            "photo": "https://demo.wenthemes.com/easy-commerce-pro/wp-content/uploads/sites/44/2017/06/product-99.png"
+        }
+    ],
+    "product": [
+        {
+            "id": 1,
+            "name": "Samsung-m40",
+            "color": "black",
+            "price": 15000,
+            "category": "Mobile",
+            "brand": "Samsung",
+            "photo": "https://5.imimg.com/data5/KC/PC/MY-38629861/dummy-chronograph-watch-500x500.jpg"
+        },
+        {
+            "id": 2,
+            "name": "T-shirt",
+            "color": "black",
+            "price": 15000,
+            "category": "cloths",
+            "brand": "Nike",
+            "photo": "https://clawthing.com/wp-content/uploads/2021/09/1.jpg"
+        },
+        {
+            "id": 3,
+            "name": "Samsung-m40",
+            "color": "black",
+            "price": 50000,
+            "category": "Mobile",
+            "brand": "Samsung",
+            "photo": "https://5.imimg.com/data5/KC/PC/MY-38629861/dummy-chronograph-watch-500x500.jpg"
+        },
+        {
+            "id": 4,
+            "name": "Sports Shoes",
+            "color": "red and black",
+            "price": 8000,
+            "category": "rebook",
+            "brand": "Nike",
+            "photo": "https://demo.wenthemes.com/easy-commerce-pro/wp-content/uploads/sites/44/2017/06/product-99.png"
+        },
+        {
+            "id": 5,
+            "name": "Samsung-m40",
+            "color": "black",
+            "price": 15000,
+            "category": "Mobile",
+            "brand": "Samsung",
+            "photo": "https://5.imimg.com/data5/KC/PC/MY-38629861/dummy-chronograph-watch-500x500.jpg"
+        },
+        {
+            "id": 6,
+            "name": "T-shirt",
+            "color": "black",
+            "price": 15000,
+            "category": "cloths",
+            "brand": "Nike",
+            "photo": "https://clawthing.com/wp-content/uploads/2021/09/1.jpg"
+        },
+        {
+            "id": 7,
+            "name": "Samsung-m40",
+            "color": "black",
+            "price": 50000,
+            "category": "Mobile",
+            "brand": "Samsung",
+            "photo": "https://5.imimg.com/data5/KC/PC/MY-38629861/dummy-chronograph-watch-500x500.jpg"
+        },
+        {
+            "id": 8,
+            "name": "Sports Shoes",
+            "color": "red and black",
+            "price": 8000,
+            "category": "rebook",
+            "brand": "Nike",
+            "photo": "https://demo.wenthemes.com/easy-commerce-pro/wp-content/uploads/sites/44/2017/06/product-99.png"
+        },
+        {
+            "id": 9,
+            "name": "Samsung-m40",
+            "color": "black",
+            "price": 15000,
+            "category": "Mobile",
+            "brand": "Samsung",
+            "photo": "https://5.imimg.com/data5/KC/PC/MY-38629861/dummy-chronograph-watch-500x500.jpg"
+        },
+        {
+            "id": 10,
+            "name": "T-shirt",
+            "color": "black",
+            "price": 15000,
+            "category": "cloths",
+            "brand": "Nike",
+            "photo": "https://clawthing.com/wp-content/uploads/2021/09/1.jpg"
+        },
+        {
+            "id": 11,
+            "name": "Samsung-m40",
+            "color": "black",
+            "price": 50000,
+            "category": "Mobile",
+            "brand": "Samsung",
+            "photo": "https://5.imimg.com/data5/KC/PC/MY-38629861/dummy-chronograph-watch-500x500.jpg"
+        },
+        {
+            "id": 12,
+            "name": "Sports Shoes",
+            "color": "red and black",
+            "price": 8000,
+            "category": "rebook",
+            "brand": "Nike",
+            "photo": "https://demo.wenthemes.com/easy-commerce-pro/wp-content/uploads/sites/44/2017/06/product-99.png"
+        },
+        {
+            "id": 13,
+            "name": "Samsung-m40",
+            "color": "black",
+            "price": 15000,
+            "category": "Mobile",
+            "brand": "Samsung",
+            "photo": "https://5.imimg.com/data5/KC/PC/MY-38629861/dummy-chronograph-watch-500x500.jpg"
+        },
+        {
+            "id": 14,
+            "name": "T-shirt",
+            "color": "black",
+            "price": 15000,
+            "category": "cloths",
+            "brand": "Nike",
+            "photo": "https://clawthing.com/wp-content/uploads/2021/09/1.jpg"
+        },
+        {
+            "id": 15,
+            "name": "Samsung-m40",
+            "color": "black",
+            "price": 50000,
+            "category": "Mobile",
+            "brand": "Samsung",
+            "photo": "https://5.imimg.com/data5/KC/PC/MY-38629861/dummy-chronograph-watch-500x500.jpg"
+        },
+        {
+            "id": 16,
+            "name": "Sports Shoes",
+            "color": "red and black",
+            "price": 8000,
+            "category": "rebook",
+            "brand": "Nike",
+            "photo": "https://demo.wenthemes.com/easy-commerce-pro/wp-content/uploads/sites/44/2017/06/product-99.png"
+        }
+    ]
+}

@@ -1,8 +1,15 @@
-import { PRODUCT_LIST,SEARCH_PRODUCT,SET_PRODUCT_LIST } from "./constant"
+import { PRODUCT_LIST,SEARCH_PRODUCT,FETCH_PRODUCT_LIST } from "./constant"
 export const ProductList =  () => {
     return {
         type: PRODUCT_LIST,
         // data:"apple"
+    }
+}
+export const fetchedProductList =  (pageNo) => {
+    return {
+        type: FETCH_PRODUCT_LIST,
+        pageNo:pageNo
+        // data
     }
 }
 

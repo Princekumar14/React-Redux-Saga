@@ -8,9 +8,8 @@ import { debounce } from 'lodash';
 const Header = () => {
   const result = useSelector((state) => state.CartData);
   const dispatch = useDispatch();
-  console.warn("data in header", result);
+  // console.warn("data in header", result);
   const [search, setSearch] = useState("")
-
 
 
 
@@ -26,30 +25,11 @@ const Header = () => {
 
 
 
-
-
-  //   function handleSearch (e) {
-  //   const newQuery = e.target.value
-  //     setSearch(newQuery) 
-  //   debounce(() => { 
-    
-      
-  //      dispatch(ProductSearch(search))
-  //   }, 2000)()
-  //   console.log(search)
-
-  // }
-  // }
-  // useEffect(() => {
-   
-  // }, [search])
-
-
   return (
     <div className="header">
       <Link to="/"><h1 className='logo'>E-Comm</h1></Link>
       <div className='search-box'>
-        <input type="text" onChange={(e) => handleSearch(e)} placeholder='Search Product' />
+        <input type="text" onChange={ handleSearch } placeholder='Search Product' />
       </div>
       <Link to="/cart" >
         <div className="cart-div">
